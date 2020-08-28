@@ -28,8 +28,8 @@ def plot_optimization(regressor, parameter, X_train, X_test, y_train, y_test):
         test_pred = model.predict(X_test)
         test_results.append(performance_metric(y_test, test_pred))
 
-    line1, = plt.plot(parameter[key], train_results, 'b', label='Train R^2')
-    line2, = plt.plot(parameter[key], test_results, 'r', label='Test R^2')
+    line1, = plt.plot(parameter[key], train_results, 'b', label='Train R2')
+    line2, = plt.plot(parameter[key], test_results, 'r', label='Test R2')
     plt.ylabel('R^2 score')
     plt.xlabel(key)
     plt.legend()

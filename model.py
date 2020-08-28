@@ -47,16 +47,3 @@ def robust_model(regressor, rates, trees):
         results.append({np.round(performance_metric(y_test, pred), decimals=5) : [rates[i], trees[i]]})
         
     return results
-
-
-
-
-
-
-
-
-
-
-
-
-
