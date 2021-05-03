@@ -24,4 +24,4 @@ Admission-Prediction.csv & Admissions_Prediction_Ver1.1.csv - Data used for proj
 python main.py
 ```
 
-Final output can be viewed [here...](https://justingee193.github.io/justingee193.github.io/links/graduate-admissions.html)
+Final output can be viewed [here...](https://justingee193.github.io/links/graduate-admissions.html)
